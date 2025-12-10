@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecno-Charge - Registrarse</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <div class="encabezado">
+        <a href="producto-preview.html" class="nav-item">Inicio</a>
+        <a href="conocenos.html" class="nav-item">Conócenos</a>
+        <a href="sucursales.html" class="nav-item">Sucursales</a>
+        <a href="opiniones.html" class="nav-item">Opiniones</a>
+    </div>
+
+    <div class="contenedor-principal" style="flex-direction: column; max-width:700px;">
+        
+        <h1 class="titulo-principal" style="text-align:center;">Únete a Tecno-Charge</h1>
+        <p class="subtitulo" style="text-align:center;">Regístrate para comprar y acceder a descuentos</p>
+
+        <form id="registroForm" 
+              style="background:white; padding:40px; border-radius:20px; box-shadow:0 20px 40px -5px rgba(0,0,0,0.1); width:100%; max-width:600px; border:1px solid #e2e8f0;">
+
+            <div style="margin-bottom:20px;">
+                <label for="nombre" style="font-weight:600;">Nombre Completo:</label>
+                <input type="text" id="nombre" name="nombre" required placeholder="Juan Pérez"
+                       style="width:100%; padding:12px; margin-top:8px; border:1px solid #cbd5e1; border-radius:8px;">
+            </div>
+
+            <div style="margin-bottom:20px;">
+                <label for="correo" style="font-weight:600;">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required placeholder="tu@email.com"
+                       style="width:100%; padding:12px; margin-top:8px; border:1px solid #cbd5e1; border-radius:8px;">
+            </div>
+
+            <div style="margin-bottom:20px;">
+                <label for="telefono" style="font-weight:600;">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required placeholder="11 1234 5678"
+                       style="width:100%; padding:12px; margin-top:8px; border:1px solid #cbd5e1; border-radius:8px;">
+            </div>
+
+            <button onclick="window.location.href='index.html'">
+                Crear Cuenta
+            </button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Tecno-Charge. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
