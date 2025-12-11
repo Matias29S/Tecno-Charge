@@ -1,0 +1,66 @@
+
+.prod-container {
+    flex-direction: column;
+    max-width: 700px;
+}
+
+.prod-card {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px -5px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #e2e8f0;
+}
+.prod-img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.prod-label {
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+
+.contador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.contador-num {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.btn-contador {
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.prod-select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.btn-confirmar {
+    margin-top: 30px;
+    width: 100%;
+    padding: 15px;
+    background: #4f46e5;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}

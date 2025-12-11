@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecno-Charge - Selección de Producto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="producto.css">
+</head>
+
+<body>
+    <div class="encabezado">
+        <a href="producto-preview.html" class="nav-item">Inicio</a>
+        <a href="conocenos.html" class="nav-item">Conócenos</a>
+        <a href="sucursales.html" class="nav-item">Sucursales</a>
+        <a href="opiniones.html" class="nav-item">Opiniones</a>
+    </div>
+
+    <div class="contenedor-principal prod-container">
+        <h1 class="titulo-principal center">Seleccioná tu Producto</h1>
+        <p class="subtitulo center">Elegí cantidad y color antes de comprar</p>
+
+        <div class="prod-card">
+
+            <img src="cargador.jpg" alt="Producto" class="prod-img">
+
+            <h3 class="prod-label">Cantidad</h3>
+            <div class="contador">
+                <button class="btn-contador" onclick="cambiarCantidad(-1)">-</button>
+                <span id="cantidad" class="contador-num">1</span>
+                <button class="btn-contador" onclick="cambiarCantidad(1)">+</button>
+            </div>
+
+            <h3 class="prod-label">Color</h3>
+            <select id="color" class="prod-select">
+                <option value="negro">Negro</option>
+                <option value="blanco">Blanco</option>
+                <option value="azul">Azul</option>
+                <option value="rojo">Rojo</option>
+            </select>
+            <h3 class="prod-label">Total</h3>
+            <p id="total" class="total-precio">$14.999</p>
+
+
+            <button class="btn-confirmar" onclick="confirmarCompra()">
+                Confirmar Compra
+            </button>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Tecno-Charge. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="producto.js"></script>
+</body>
+</html>
