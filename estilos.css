@@ -56,7 +56,7 @@ body {
 /* Variación para páginas de una sola columna (Opiniones, Sucursales) */
 .contenedor-principal.columna-unica {
     flex-direction: column;
-    align-items: center;
+    align-items: center; /*alinea el div horizontalmente en el centro*/
     gap: 40px;
     padding-top: 40px;
 }
@@ -70,7 +70,7 @@ body {
 .columna-producto {
     flex: 1;
     display: flex;
-    justify-content: center;
+    justify-content: center; /*alinea los divs verticalmente en el centro*/
 }
 
 /*TIPOGRAFÍA */
@@ -243,4 +243,5 @@ footer {
         flex-direction: column;
         gap: 20px;
     }
+
 }
