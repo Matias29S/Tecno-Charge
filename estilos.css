@@ -39,7 +39,7 @@ body {
     background-color: #2563eb;
 }
 
-/* --- CONTENEDOR PRINCIPAL --- */
+/*  CONTENEDOR PRINCIPAL */
 .contenedor-principal {
     display: flex;
     justify-content: center;
@@ -73,7 +73,7 @@ body {
     justify-content: center;
 }
 
-/* --- TIPOGRAFÍA --- */
+/*TIPOGRAFÍA */
 .titulo-principal {
     font-size: 3em;
     color: #1e40af;
